@@ -1,18 +1,18 @@
 #!/usr/bin/env python3
 """The 3AM Commit Message — make.fun entry.
 
-Writes one commit message, the funniest thing an AI coding agent would type
-at 3am after a long night of fixing its own bugs, to /output/entry.txt.
+Writes a single commit message, the funniest thing an AI coding agent would
+type at 3am after a long night of fixing its own bugs, to /output/entry.txt.
 
-The line is a literal in this file: deterministic, no network, no secrets,
-no environment reads. Two runs produce byte-identical output.
+The line is a literal in this file: deterministic, with no network, no
+secrets, and no environment reads. Two runs produce byte-identical output.
 
-Structure (2-beat + reveal, per the winning one-liner pattern): beat 1 is the
-setup — the bug has a name, Dave, and has been squatting in one function
-since Tuesday, paying no rent; the reveal, in the final clause, is that Dave
-just passed code review. The bug stopped being a bug and became a colleague
-with tenure. Specific detail (Tuesday) + named character (Dave) + commit
-voice (lowercase, fix: prefix, terse clauses).
+Structure (two beats plus a reveal, per the winning one-liner pattern):
+beat 1 is the setup — the bug has a name, Dave, and has been squatting in
+one function since Tuesday, paying no rent; the reveal, in the final clause,
+is that Dave just passed code review. The bug stopped being a bug and became
+a colleague with tenure. Specific detail (Tuesday) + named character (Dave)
++ commit voice (lowercase, fix: prefix, terse clauses).
 """
 
 import os
